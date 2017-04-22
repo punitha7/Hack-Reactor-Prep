@@ -1,0 +1,15 @@
+function getAllKeys(obj){
+
+var array = [];
+
+for(var items in obj){
+array.push(items);
+}
+return array;
+}
+
+console.log(getAllKeys({
+  name : 'Sam',
+  age : 25,
+  hasPets : true
+}));
